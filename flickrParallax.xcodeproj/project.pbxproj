@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99F5A73A1BFD99E8002E6C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5A7391BFD99E8002E6C8B /* AppDelegate.swift */; };
+		99F5A73C1BFD99E8002E6C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5A73B1BFD99E8002E6C8B /* ViewController.swift */; };
+		99F5A73F1BFD99E8002E6C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F5A73D1BFD99E8002E6C8B /* Main.storyboard */; };
+		99F5A7411BFD99E9002E6C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F5A7401BFD99E9002E6C8B /* Assets.xcassets */; };
+		99F5A7441BFD99E9002E6C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F5A7421BFD99E9002E6C8B /* LaunchScreen.storyboard */; };
+		99F5A74F1BFD99E9002E6C8B /* flickrParallaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5A74E1BFD99E9002E6C8B /* flickrParallaxTests.swift */; };
+		99F5A75A1BFD99E9002E6C8B /* flickrParallaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5A7591BFD99E9002E6C8B /* flickrParallaxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99F5A74B1BFD99E9002E6C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F5A72E1BFD99E7002E6C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F5A7351BFD99E8002E6C8B;
+			remoteInfo = flickrParallax;
+		};
+		99F5A7561BFD99E9002E6C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F5A72E1BFD99E7002E6C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F5A7351BFD99E8002E6C8B;
+			remoteInfo = flickrParallax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99F5A7361BFD99E8002E6C8B /* flickrParallax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickrParallax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F5A7391BFD99E8002E6C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99F5A73B1BFD99E8002E6C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99F5A73E1BFD99E8002E6C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99F5A7401BFD99E9002E6C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99F5A7431BFD99E9002E6C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99F5A7451BFD99E9002E6C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F5A74A1BFD99E9002E6C8B /* flickrParallaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flickrParallaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F5A74E1BFD99E9002E6C8B /* flickrParallaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickrParallaxTests.swift; sourceTree = "<group>"; };
+		99F5A7501BFD99E9002E6C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F5A7551BFD99E9002E6C8B /* flickrParallaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flickrParallaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F5A7591BFD99E9002E6C8B /* flickrParallaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickrParallaxUITests.swift; sourceTree = "<group>"; };
+		99F5A75B1BFD99E9002E6C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F5A7331BFD99E8002E6C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5A7471BFD99E9002E6C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5A7521BFD99E9002E6C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99F5A72D1BFD99E7002E6C8B = {
+			isa = PBXGroup;
+			children = (
+				99F5A7381BFD99E8002E6C8B /* flickrParallax */,
+				99F5A74D1BFD99E9002E6C8B /* flickrParallaxTests */,
+				99F5A7581BFD99E9002E6C8B /* flickrParallaxUITests */,
+				99F5A7371BFD99E8002E6C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99F5A7371BFD99E8002E6C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99F5A7361BFD99E8002E6C8B /* flickrParallax.app */,
+				99F5A74A1BFD99E9002E6C8B /* flickrParallaxTests.xctest */,
+				99F5A7551BFD99E9002E6C8B /* flickrParallaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99F5A7381BFD99E8002E6C8B /* flickrParallax */ = {
+			isa = PBXGroup;
+			children = (
+				99F5A7391BFD99E8002E6C8B /* AppDelegate.swift */,
+				99F5A73B1BFD99E8002E6C8B /* ViewController.swift */,
+				99F5A73D1BFD99E8002E6C8B /* Main.storyboard */,
+				99F5A7401BFD99E9002E6C8B /* Assets.xcassets */,
+				99F5A7421BFD99E9002E6C8B /* LaunchScreen.storyboard */,
+				99F5A7451BFD99E9002E6C8B /* Info.plist */,
+			);
+			path = flickrParallax;
+			sourceTree = "<group>";
+		};
+		99F5A74D1BFD99E9002E6C8B /* flickrParallaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				99F5A74E1BFD99E9002E6C8B /* flickrParallaxTests.swift */,
+				99F5A7501BFD99E9002E6C8B /* Info.plist */,
+			);
+			path = flickrParallaxTests;
+			sourceTree = "<group>";
+		};
+		99F5A7581BFD99E9002E6C8B /* flickrParallaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99F5A7591BFD99E9002E6C8B /* flickrParallaxUITests.swift */,
+				99F5A75B1BFD99E9002E6C8B /* Info.plist */,
+			);
+			path = flickrParallaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99F5A7351BFD99E8002E6C8B /* flickrParallax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F5A75E1BFD99E9002E6C8B /* Build configuration list for PBXNativeTarget "flickrParallax" */;
+			buildPhases = (
+				99F5A7321BFD99E8002E6C8B /* Sources */,
+				99F5A7331BFD99E8002E6C8B /* Frameworks */,
+				99F5A7341BFD99E8002E6C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flickrParallax;
+			productName = flickrParallax;
+			productReference = 99F5A7361BFD99E8002E6C8B /* flickrParallax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99F5A7491BFD99E9002E6C8B /* flickrParallaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F5A7611BFD99E9002E6C8B /* Build configuration list for PBXNativeTarget "flickrParallaxTests" */;
+			buildPhases = (
+				99F5A7461BFD99E9002E6C8B /* Sources */,
+				99F5A7471BFD99E9002E6C8B /* Frameworks */,
+				99F5A7481BFD99E9002E6C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F5A74C1BFD99E9002E6C8B /* PBXTargetDependency */,
+			);
+			name = flickrParallaxTests;
+			productName = flickrParallaxTests;
+			productReference = 99F5A74A1BFD99E9002E6C8B /* flickrParallaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99F5A7541BFD99E9002E6C8B /* flickrParallaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F5A7641BFD99E9002E6C8B /* Build configuration list for PBXNativeTarget "flickrParallaxUITests" */;
+			buildPhases = (
+				99F5A7511BFD99E9002E6C8B /* Sources */,
+				99F5A7521BFD99E9002E6C8B /* Frameworks */,
+				99F5A7531BFD99E9002E6C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F5A7571BFD99E9002E6C8B /* PBXTargetDependency */,
+			);
+			name = flickrParallaxUITests;
+			productName = flickrParallaxUITests;
+			productReference = 99F5A7551BFD99E9002E6C8B /* flickrParallaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F5A72E1BFD99E7002E6C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Mavericks;
+				TargetAttributes = {
+					99F5A7351BFD99E8002E6C8B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					99F5A7491BFD99E9002E6C8B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 99F5A7351BFD99E8002E6C8B;
+					};
+					99F5A7541BFD99E9002E6C8B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 99F5A7351BFD99E8002E6C8B;
+					};
+				};
+			};
+			buildConfigurationList = 99F5A7311BFD99E8002E6C8B /* Build configuration list for PBXProject "flickrParallax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99F5A72D1BFD99E7002E6C8B;
+			productRefGroup = 99F5A7371BFD99E8002E6C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99F5A7351BFD99E8002E6C8B /* flickrParallax */,
+				99F5A7491BFD99E9002E6C8B /* flickrParallaxTests */,
+				99F5A7541BFD99E9002E6C8B /* flickrParallaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F5A7341BFD99E8002E6C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F5A7441BFD99E9002E6C8B /* LaunchScreen.storyboard in Resources */,
+				99F5A7411BFD99E9002E6C8B /* Assets.xcassets in Resources */,
+				99F5A73F1BFD99E8002E6C8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5A7481BFD99E9002E6C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5A7531BFD99E9002E6C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99F5A7321BFD99E8002E6C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F5A73C1BFD99E8002E6C8B /* ViewController.swift in Sources */,
+				99F5A73A1BFD99E8002E6C8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5A7461BFD99E9002E6C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F5A74F1BFD99E9002E6C8B /* flickrParallaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5A7511BFD99E9002E6C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F5A75A1BFD99E9002E6C8B /* flickrParallaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99F5A74C1BFD99E9002E6C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F5A7351BFD99E8002E6C8B /* flickrParallax */;
+			targetProxy = 99F5A74B1BFD99E9002E6C8B /* PBXContainerItemProxy */;
+		};
+		99F5A7571BFD99E9002E6C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F5A7351BFD99E8002E6C8B /* flickrParallax */;
+			targetProxy = 99F5A7561BFD99E9002E6C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99F5A73D1BFD99E8002E6C8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F5A73E1BFD99E8002E6C8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99F5A7421BFD99E9002E6C8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F5A7431BFD99E9002E6C8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99F5A75C1BFD99E9002E6C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99F5A75D1BFD99E9002E6C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99F5A75F1BFD99E9002E6C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flickrParallax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.flickrParallax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99F5A7601BFD99E9002E6C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flickrParallax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.flickrParallax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99F5A7621BFD99E9002E6C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flickrParallaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.flickrParallaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flickrParallax.app/flickrParallax";
+			};
+			name = Debug;
+		};
+		99F5A7631BFD99E9002E6C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flickrParallaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.flickrParallaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flickrParallax.app/flickrParallax";
+			};
+			name = Release;
+		};
+		99F5A7651BFD99E9002E6C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flickrParallaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.flickrParallaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flickrParallax;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		99F5A7661BFD99E9002E6C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flickrParallaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.flickrParallaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flickrParallax;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99F5A7311BFD99E8002E6C8B /* Build configuration list for PBXProject "flickrParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F5A75C1BFD99E9002E6C8B /* Debug */,
+				99F5A75D1BFD99E9002E6C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F5A75E1BFD99E9002E6C8B /* Build configuration list for PBXNativeTarget "flickrParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F5A75F1BFD99E9002E6C8B /* Debug */,
+				99F5A7601BFD99E9002E6C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99F5A7611BFD99E9002E6C8B /* Build configuration list for PBXNativeTarget "flickrParallaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F5A7621BFD99E9002E6C8B /* Debug */,
+				99F5A7631BFD99E9002E6C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99F5A7641BFD99E9002E6C8B /* Build configuration list for PBXNativeTarget "flickrParallaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F5A7651BFD99E9002E6C8B /* Debug */,
+				99F5A7661BFD99E9002E6C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99F5A72E1BFD99E7002E6C8B /* Project object */;
+}
